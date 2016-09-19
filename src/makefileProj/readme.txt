@@ -1,0 +1,2 @@
+In order to make cl.exe run correctly, the path to VS bin directory must be added to "Path" of environment variables. 
+This path is normally "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"
