@@ -1,0 +1,3 @@
+
+
+cl.exe test.cpp /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt" /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include" /link /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib" /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.10150.0\ucrt\x86"
