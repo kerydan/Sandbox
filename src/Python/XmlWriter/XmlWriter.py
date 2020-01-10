@@ -3,9 +3,8 @@ def printwriterhello():
 
 
 class XmlWriter:
-    tag = []
-    def print(self):
-        print("It goes from XmlWriter !!!!22!!")
+    tag = []        # analog of c++ vector
+
     def Indent(self):
         print("   ", end = "")
 
@@ -17,9 +16,11 @@ class XmlWriter:
             return self
 
     def CloseElement(self):
-        self.Indent()
-        print("</", end = "")
+        print(" </", end = "")
         print(self.tag.pop(), end = "")
         print(">", end = "")
         return self
 
+    def Attr(this, key, val):
+        print( " " + key + '="' + val + '"', end = "")
+        return this;
