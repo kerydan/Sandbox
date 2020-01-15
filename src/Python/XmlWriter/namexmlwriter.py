@@ -15,12 +15,13 @@ print(cur.fetchall())
 
 
 XmlWriter.printwriterhello()
+f = open("myfile.txt", "w", encoding="utf-8")
+
 
 namexml = XmlWriter.XmlWriter()
+namexml.SetFile(f)
+print("Hi")
 namexml.OpenElement('CITY').Attr('NAME', 'LONDON').Attr('LANG', '15').Attr('LNG', str(45)).CloseElement()
 
 
-f = open("myfile.txt", "w", encoding="utf-8")
-
-f.write("bla bla")
 f.close()
