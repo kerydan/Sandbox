@@ -2,9 +2,11 @@ import sqlite3
 import io
 import XmlWriter
 
+s = 'port'*3
 
+print (s+str(5))
 
-
+exit()
 con = sqlite3.connect('1.sq3')
 
 print("1.sq3 connected")
